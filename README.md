@@ -13,7 +13,7 @@ https://evotec.xyz/how-to-permanently-disable-uac-in-windows-server/
 * Now, logout of administrator and use your new user account
 
 ## Step 2 Install Chocolatey ##
-Ref: [example](https://chocolatey.org/install "Title")
+Chocolatey is a free command-line package manager for Windows.  [Reference](https://chocolatey.org/install "Title")
 
 1. Set Powershell Get-ExecutionPolicy to something other than Restricted
-
+2. Use this web page to obtain the necessary installation steps - tps://chocolatey.org/install
