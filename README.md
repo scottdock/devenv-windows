@@ -13,12 +13,12 @@ Use your VM Host of choice - Parallels, VMWare Fusion, HyperV (with Windows Pro 
 ## Step 2 Disable UAC ##
 Some may decide not to perform this step.  
 Here are the steps that I use for this:
-1. Run *msconfig*
-2. Select Tools and run the app listed in Change UAC Settings 
-3. Move the slider to the bottom 
-4. Now run regedit 
-5. Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system and change the "EnableLUA" from hex 1 to hex 0
-6. Saving regedit will prompt you to reboot - do so. 
+* Run *msconfig*
+* Select Tools and run the app listed in Change UAC Settings 
+* Move the slider to the bottom 
+* Now run regedit 
+* Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system and change the "EnableLUA" from hex 1 to hex 0
+* Saving regedit will prompt you to reboot - do so. 
 
 ## Step 3 Install Chocolatey ##
 Chocolatey is a free command-line package manager for Windows.  [Reference](https://chocolatey.org/install "Title")
