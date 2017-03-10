@@ -23,6 +23,7 @@ choco install fiddler4
 choco install poshtools-visualstudio2015
 choco install ilspy
 choco install sizer
+choco install papercut
 
 rem ----- DevOps Tools 
 choco install mremoteng
